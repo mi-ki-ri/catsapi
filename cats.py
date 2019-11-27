@@ -71,7 +71,7 @@ CORS(app)
 @app.route('/')
 def get_json():
     return jsonify(
-        name= "my awesome api",
+        name= "My Cats API",
         data= random.sample(myD, 10) 
     )
 
